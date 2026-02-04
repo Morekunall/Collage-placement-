@@ -240,7 +240,7 @@ export default function StudentProfile() {
                 <div>
                   <p className="text-sm text-muted-foreground mb-2">Resume uploaded</p>
                   <a
-                    href={`http://localhost:5000/${profile.resume_url}`}
+                    href={`https://collage-placement-5g5w.onrender.com/${profile.resume_url}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"

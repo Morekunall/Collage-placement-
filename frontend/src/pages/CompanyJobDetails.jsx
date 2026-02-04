@@ -108,7 +108,7 @@ export default function CompanyJobDetails() {
                         </p>
                         {app.resume_url && (
                           <a
-                            href={`http://localhost:5000/${app.resume_url}`}
+                            href={`https://collage-placement-5g5w.onrender.com/${app.resume_url}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-sm text-blue-600 hover:underline mt-2 inline-block"
